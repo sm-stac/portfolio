@@ -1,0 +1,313 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*header*/
+header
+{
+    background-color: rgb(215, 209, 209);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 30px 10%;
+    justify-content: space-between;
+
+}
+.logo
+{
+    width: 10%;
+    height: 80px;
+    background-color: rgb(215, 209, 209);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.nav
+{
+    background-color: rgb(215, 209, 209);
+    width:40%;
+    height: 80px;
+
+}
+.links
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+/*banner*/
+.banner
+{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(215, 209, 209);
+    padding: 5% 10%;
+    display: flex;
+    align-items:center;   
+}
+.details
+{
+    background-color:rgb(215, 209, 209);
+    height: 150px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4%;
+    align-items: flex-start;
+    
+}
+.t1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+
+}
+.t2
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color:rgb(123, 65, 177) ;
+
+}
+.button
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:rgb(123, 65, 177);
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 30px;
+
+}
+.button:hover
+{
+    background-color: transparent;
+    border: 2px solid rgb(123, 65, 177);
+    color: white;
+}
+ .person 
+{
+    background-color: rgb(123, 65, 177);
+    width: 40%;
+    height: 80%;
+    border-radius: 90%;
+}
+/* service */
+ .services
+{
+    width: 100%;
+    background-color: white;
+    padding: 30px 10%;
+    height: 390px;
+}
+.title
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:lighter;
+    font-size:30px;
+}
+.services-class
+{
+    width: 100%;
+    background-color:white;
+    padding: 20px 0px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    transition:transform 0.3s;
+}
+.service:hover
+{
+    transform: scale(1.05);
+}
+.service{
+    background-color: rgb(238, 232, 232);
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+    margin: 0px,10px;
+    box-shadow:0 0px 5px 0 grey;
+    border-radius: 5px;
+    transition:transform 0.3s;
+    height: 250px;
+        
+}
+.icons
+{
+    padding: 10px;
+    font-size: 50px;
+    align-self: center;
+}
+.btn
+{
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: rgb(123, 65, 177);
+    color: rgb(59, 56, 56);
+}
+.btn:hover
+{
+    background-color: transparent;
+    cursor: pointer;
+}
+.achieve
+{
+    width: 100%;
+    height: 200px;
+    background-color:rgb(215, 209, 209);
+    padding: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+    border: .1px inset rgb(123, 65, 177);
+
+}
+.achivement-child
+{
+    width: 15%;
+    height:150px;
+    background-color: rgb(215, 209, 209);
+    row-gap: 5px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+}
+.achieve-title
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color:black;
+}
+.quote
+{
+    width: 100%;
+    height: 400px;
+    background-color: red;
+    background-image: url(k.jpg);
+    background-image: cover;
+}
+.overlay
+{
+    width: 100%;
+    height: 400px;
+    padding: 30px 10%;
+    background-color:rgba(0, 0,0,0.6)
+
+}
+.quote-area
+{
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email
+{
+    margin-top: 100px;
+    width: 60%;
+    height: 100px;
+    text-indent: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+
+}
+::placeholder
+{
+    color: white;
+}
+
+/* our clients */
+.clients
+{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 10%;
+   
+}
+.clients-logo
+{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 20px;
+}
+.img
+{
+    width: 15%;
+    height: 90px;
+    filter: grayscale(100%);
+    transition: transform 0.3s;
+}
+img:hover
+{
+    filter: grayscale(0%);
+    transform: scale(1.06);
+    cursor: pointer;
+
+}
+
+/* footer */
+.footer
+{
+    width: 100%;
+    height: 350px;
+    background-color:rgb(215, 209, 209);
+    padding: 30px 9%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.footer-list
+{
+    width:22%;
+    height: 250px;
+    background-color:grey;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-map
+{
+    width: 50%;
+    height:250px ;
+    background-color: grey;
+    padding: 0px;
+}
+.foot
+{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(215, 209, 209) ;
+    display: flex;
+    justify-content: center;
+}
